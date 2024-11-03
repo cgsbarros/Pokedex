@@ -64,7 +64,7 @@ main{
     width: 65%;
     transform: translate(-57%, 0);
     display: flex;
-    gap: 20%;
+    gap: 20px;
 }
 .button {
     width: 50%;
@@ -73,6 +73,7 @@ main{
     border-radius: 5px;
     font-size: clamp(8px, 5vw, 1rem);
     font-weight: 600;
+    color: white;
     background-color: #444;
     box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
 }
