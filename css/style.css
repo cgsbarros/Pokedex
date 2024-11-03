@@ -15,6 +15,7 @@ main{
     display: inline-block;
     margin-top: 2%;
     padding: 15px;
+    position: relative;
 }
 .pokedex{
     width: 100%;
@@ -25,4 +26,16 @@ main{
     bottom: 55%;
     left: 50%;
     transform: translate(-63,0);
+}
+.pokemon__data{
+    position: absolute;
+    font-weight: 600;
+    color: #aaa;
+    top: 54.5%;
+    right: 27%;
+    font-size: clamp(8px, 5vw, 25px);
+}
+.pokemon__name{
+    color: #3a444d;
+    text-transform: capitalize;
 }
