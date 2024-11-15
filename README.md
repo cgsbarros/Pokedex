@@ -20,12 +20,16 @@ Este projeto foi desenvolvido com o objetivo de:
 * Feedback Visual: Indicador de carregamento e mensagens de erro quando o Pokémon não é encontrado.
 ## 📦 Estrutura de Arquivos
 ```
-├── index.html       # Estrutura da Pokédex
+├── index.html            => Estrutura da Pokédex
 ├── css/
-│   └── style.css    # Estilos da Pokédex
+│   └── style.css         => Estilos da Pokédex
+├── favicons/
+│   └── favicon-16x16.png => Ícone da Pokédex
+├── images/
+│   └── pokedex.png       => Imagem da Pokédex
 ├── js/
-│   └── script.js    # Lógica e funções da Pokédex
-└── README.md        # Documentação do projeto
+│   └── script.js         => Lógica e funções da Pokédex
+└── README.md             => Documentação do projeto
 
 ```
 ## 📜 Licença
